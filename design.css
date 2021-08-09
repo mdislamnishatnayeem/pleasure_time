@@ -1,0 +1,228 @@
+/* Medium devices (landscape tablets, 1366px and up) */
+@media only screen and (max-width: 1466px) {
+    *{
+        box-sizing:border-box;
+     }
+   
+    body{
+        padding: 0px;
+        margin:0px;
+        background:white;
+        width: 100%;
+    }
+    .topbar{
+        background:darkred;
+    /*#333333;*/
+        height: 80px;
+        color:WHITE;
+        font-size:50px;
+        text-align: center;
+        font-family: 'Aclonica', sans-serif;
+        padding-top:2%;
+        padding-bottom: 0px;
+    }
+
+    .topic{
+       height:250px;;
+       width:25%;
+       background-color:darkseagreen;
+       float: left;
+       margin-left:2%;
+       margin-right:2%;
+       margin-top:20px;
+       border-style: solid;
+       border-color:black;
+       border-width: 2px;
+       border-radius:10px 10px 0px 0px;
+      display: inline-block;
+       background-size: cover;
+       text-align: center;
+       position: relative; 
+      
+       
+        
+    }
+    .topic span{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left:0;
+        word-wrap: break-word;
+       overflow-wrap: break-word;
+       background-color: rgb(107, 9, 9);
+       margin: 0px;
+       opacity: 0.8;
+       color: white;
+       font-size: 16px;;
+    }
+    .pkkk{
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+      }
+    .pkkk a{
+        text-decoration: none;
+        font-size: 25px;
+        background-color:rgb(48, 150, 16);
+        color:white;
+       
+        margin-right:2%;
+        margin-left: 2%;
+      float: initial;
+      padding-right: 5px;
+      padding-left: 5px;
+      border-radius: 10%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:850px) {
+    *{
+        box-sizing:border-box;
+     }
+    body{
+        padding: 0px;
+        margin:0px;
+        background:;
+    }
+    .topbar{
+        background:darkred;
+    /*#333333;*/
+        height: 70px;
+        color:WHITE;
+        font-size:30px;
+        text-align: center;
+        font-family: 'Aclonica', sans-serif;
+        padding-top:2%;
+        padding-bottom: 0px;
+    }
+
+    .topic{
+        height:220px;
+       width:40%;
+       background-color:darkseagreen;
+       float: left;
+       margin-left:2%;
+       margin-right:2%;
+       margin-top:20px;
+       margin-bottom: 25px;;
+       border-style: solid;
+       border-color:darkred;
+       border-width: 1px;
+       border-radius:10px 10px 0px 0px;
+       display: inline-block;
+       background-size: cover;
+       word-wrap: break-word;
+       overflow-wrap: break-word;
+       
+       color:white;
+       text-align: center;
+       position: relative; 
+       background-size: cover;
+       
+        
+    }
+    .topic span{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left:0;
+        word-wrap: break-word;
+       overflow-wrap: break-word;
+       background-color: rgb(139, 0, 0);
+       margin: 0px;
+       opacity: 0.8;
+       color: rgb(255, 255, 255);
+       font-size: 16px;;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Medium devices (landscape tablets,600px and up) */
+
+@media only screen and (max-width:600px) {
+    *{
+        box-sizing:border-box;
+     }
+    body{
+        padding: 0px;
+        margin:0px;
+        background:;
+    }
+    .topbar{
+        background:darkred;
+    /*#333333;*/
+        height: 60px;
+        color:WHITE;
+        font-size:25px;
+        text-align: center;
+        font-family: 'Aclonica', sans-serif;
+        padding-top:2%;
+        padding-bottom: 0px;
+    }
+
+    .topic{
+        height:210px;
+       width:100%;
+       background-color:darkseagreen;
+       float: left;
+       margin-left:0%;
+       margin-right:0%;
+       margin-top:20px;
+       margin-bottom: 25px;;
+       border-style: solid;
+       border-color:darkred;
+       border-width: 1px;
+       border-radius:0px 0px 0px 0px;
+       display: inline-block;
+       background-size: cover;
+       word-wrap: break-word;
+       overflow-wrap: break-word;
+       
+       color:white;
+       text-align: center;
+       position: relative; 
+       background-size: cover;
+       
+        
+    }
+    .topic span{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left:0;
+        word-wrap: break-word;
+       overflow-wrap: break-word;
+       background-color: rgb(139, 0, 0);
+       margin: 0px;
+       opacity: 0.8;
+       color: rgb(255, 255, 255);
+       font-size: 16px;;
+    }
+
+
+  
+
+}
